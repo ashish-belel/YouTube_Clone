@@ -1,0 +1,32 @@
+/* TABLET */
+@media (max-width: 900px) {
+  .watch-container {
+    flex-direction: column;
+  }
+
+  .recommendations {
+    width: 100%;
+  }
+
+  .video-section {
+    width: 100%;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+  .middle-section {
+    display: none; /* hide search bar */
+  }
+
+  .sidebar {
+    position: absolute;
+    z-index: 1000;
+    background: white;
+  }
+
+  .v-grid {
+    grid-template-columns: 1fr;
+  }
+}

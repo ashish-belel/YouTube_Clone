@@ -30,3 +30,10 @@ function initVideoClick(videos) {
     window.location.href = "watch.html";
   });
 }
+
+const menuBtn = document.getElementById("menu-btn");
+const sidebar = document.querySelector(".sidebar");
+
+menuBtn.addEventListener("click", () => {
+  sidebar.classList.toggle("sidebar-hidden");
+});
