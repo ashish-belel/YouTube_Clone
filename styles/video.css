@@ -119,3 +119,72 @@
       width: 120px;
       border-radius: 8px;
     }
+
+    /* TITLE */
+    .video-title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+
+    /* META */
+    .video-meta {
+      color: gray;
+      font-size: 14px;
+      margin: 5px 0 15px;
+    }
+
+    .dot {
+      margin: 0 5px;
+    }
+
+    /* CHANNEL ROW */
+    .channel-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 15px 0;
+    }
+
+    .channel-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .channel-pfp {
+      width: 40px;
+      border-radius: 50%;
+    }
+
+    .channel-name {
+      font-weight: 500;
+    }
+
+    .sub-count {
+      font-size: 12px;
+      color: gray;
+    }
+
+    /* SUBSCRIBE BUTTON */
+    .subscribe-btn {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    .subscribe-btn:hover {
+      opacity: 0.8;
+    }
+
+    /* DESCRIPTION */
+    .description-box {
+      background-color: #f2f2f2;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 14px;
+    }

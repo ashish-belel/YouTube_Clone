@@ -1,23 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Watch</title>
 </head>
+
 <body>
 
   <main class="watch-container">
 
     <!-- LEFT: VIDEO SECTION -->
     <div class="video-section">
+
       <img id="video-thumbnail" class="video-player">
 
-      <h2 id="video-title"></h2>
-      <p id="video-stats"></p>
+      <!-- TITLE -->
+      <h2 id="video-title" class="video-title"></h2>
 
-      <div class="channel-info">
-        <img id="channel-img" class="channel-pfp">
-        <span id="channel-name"></span>
+      <!-- STATS ROW -->
+      <div class="video-meta">
+        <span id="video-views"></span>
+        <span class="dot">•</span>
+        <span id="video-date"></span>
       </div>
+
+      <!-- CHANNEL + SUBSCRIBE -->
+      <div class="channel-row">
+        <div class="channel-left">
+          <img id="channel-img" class="channel-pfp">
+          <div>
+            <p id="channel-name" class="channel-name"></p>
+            <p class="sub-count">1M subscribers</p>
+          </div>
+        </div>
+
+        <button class="subscribe-btn">Subscribe</button>
+      </div>
+
+      <!-- DESCRIPTION -->
+      <div class="description-box">
+        <p id="video-description"></p>
+      </div>
+
     </div>
 
     <!-- RIGHT: RECOMMENDED -->
@@ -30,4 +54,5 @@
   <script src="scripts/watch.js"></script>
 
 </body>
+
 </html>
