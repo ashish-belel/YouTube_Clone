@@ -3,6 +3,10 @@ function renderVideos(videoList) {
 
   container.innerHTML = "";
 
+  if (videoList.length === 0) {
+    container.innerHTML = "<p>No results found</p>";
+  }
+
   videoList.forEach(video => {
     const videoHTML = `
       <div class="v-preview">

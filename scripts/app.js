@@ -1,1 +1,2 @@
 renderVideos(videos);
+initSearch(videos);
