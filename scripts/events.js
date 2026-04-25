@@ -12,3 +12,21 @@ function initSearch(videos) {
     renderVideos(filteredVideos);
   });
 }
+
+function initVideoClick(videos) {
+  const container = document.getElementById("video-container");
+
+  container.addEventListener("click", (e) => {
+    const card = e.target.closest(".v-preview");
+
+    if (!card) return;
+
+    const videoId = card.dataset.id;
+
+    const selectedVideo = videos.find(v => v.id == videoId);
+
+    localStorage.setItem("selectedVideo", JSON.stringify(selectedVideo));
+
+    window.location.href = "watch.html";
+  });
+}

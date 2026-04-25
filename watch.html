@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Watch</title>
+</head>
+<body>
+
+  <main class="watch-container">
+
+    <!-- LEFT: VIDEO SECTION -->
+    <div class="video-section">
+      <img id="video-thumbnail" class="video-player">
+
+      <h2 id="video-title"></h2>
+      <p id="video-stats"></p>
+
+      <div class="channel-info">
+        <img id="channel-img" class="channel-pfp">
+        <span id="channel-name"></span>
+      </div>
+    </div>
+
+    <!-- RIGHT: RECOMMENDED -->
+    <div class="recommendations" id="recommended-container"></div>
+
+  </main>
+
+  <script src="scripts/data.js"></script>
+  <script src="scripts/render.js"></script>
+  <script src="scripts/watch.js"></script>
+
+</body>
+</html>
