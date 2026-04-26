@@ -7,5 +7,9 @@ fetch("videos.json")
 
     renderVideos(allVideos);
     initSearch(allVideos);
-    initVideoClick(allVideos);
+    //initVideoClick(allVideos);
   });
+
+function openYouTubeVideo(link) {
+  window.open(link, '_blank');
+}

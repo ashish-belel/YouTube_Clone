@@ -2,6 +2,7 @@ const videos = [
   {
     id: 1,
     title: "Talking Tech and AI with Google CEO Sundar Pichai!",
+    videoLink: "https://www.youtube.com/watch?v=n2RNcPRtAiY&themeRefresh=1",
     author: "Marques Brownlee",
     views: "3.4M views",
     time: "14:20",
@@ -13,6 +14,7 @@ const videos = [
   {
     id: 2,
     title: "Try Not To Laugh Challenge #9",
+    videoLink: "https://youtu.be/mP0RAo9SKZk?si=83j-DrX4tLy6206t",
     author: "Markiplier",
     views: "19M views",
     time: "8:22",
@@ -24,6 +26,7 @@ const videos = [
   {
     id: 3,
     title: "New Troop & Defense Levels - Update Sneak Peek!",
+    videoLink: "https://youtu.be/3nnL5Bk1z14?si=bo7nTDW_2lDySxwz",
     author: "Judo Sloth Gaming",
     views: "338K views",
     time: "21:20",
@@ -34,18 +37,20 @@ const videos = [
   },
   {
     id: 4,
-    title: "How to Make a YouTube Video",
-    author: "Video Influencers",
-    views: "1.2M views",
-    time: "10:45",
+    title: "The Simplest Math Problem No One Can Solve - Collatz Conjecture",
+    videoLink: "https://youtu.be/094y1Z2wpJg?si=MeEsdBZISvb5hd8F",
+    author: "Veritasium",
+    views: "45M views",
+    time: "22:09",
     thumbnail: "assets/thumbnails/thumbnail-4.webp",
     channelImg: "assets/images/channel-1.jpeg",
-    date: "2 years ago",
-    description: "Step-by-step guide on how to create and upload a YouTube video."
+    date: "4 years ago",
+    description: "The Collatz Conjecture is a simple yet unsolved problem in mathematics."
   },
   {
     id: 5,
     title: "Talking Tech and AI with Google CEO Sundar Pichai!",
+    videoLink: "https://www.youtube.com/watch?v=n2RNcPRtAiY&themeRefresh=1",
     author: "Marques Brownlee",
     views: "3.4M views",
     time: "14:20",
@@ -57,6 +62,7 @@ const videos = [
   {
     id: 6,
     title: "Try Not To Laugh Challenge #9",
+    videoLink: "https://youtu.be/mP0RAo9SKZk?si=83j-DrX4tLy6206t",
     author: "Markiplier",
     views: "19M views",
     time: "8:22",
@@ -68,6 +74,7 @@ const videos = [
   {
     id: 7,
     title: "New Troop & Defense Levels - Update Sneak Peek!",
+    videoLink: "https://youtu.be/3nnL5Bk1z14?si=bo7nTDW_2lDySxwz",
     author: "Judo Sloth Gaming",
     views: "338K views",
     time: "21:20",
@@ -78,18 +85,20 @@ const videos = [
   },
   {
     id: 8,
-    title: "How to Make a YouTube Video",
-    author: "Video Influencers",
-    views: "1.2M views",
-    time: "10:45",
+    title: "The Simplest Math Problem No One Can Solve - Collatz Conjecture",
+    videoLink: "https://youtu.be/094y1Z2wpJg?si=MeEsdBZISvb5hd8F",
+    author: "Veritasium",
+    views: "45M views",
+    time: "22:09",
     thumbnail: "assets/thumbnails/thumbnail-4.webp",
     channelImg: "assets/images/channel-1.jpeg",
-    date: "2 years ago",
-    description: "Step-by-step guide on how to create and upload a YouTube video."
+    date: "4 years ago",
+    description: "The Collatz Conjecture is a simple yet unsolved problem in mathematics."
   },
   {
     id: 9,
     title: "Talking Tech and AI with Google CEO Sundar Pichai!",
+    videoLink: "https://www.youtube.com/watch?v=n2RNcPRtAiY&themeRefresh=1",
     author: "Marques Brownlee",
     views: "3.4M views",
     time: "14:20",
@@ -101,6 +110,7 @@ const videos = [
   {
     id: 10,
     title: "Try Not To Laugh Challenge #9",
+    videoLink: "https://youtu.be/mP0RAo9SKZk?si=83j-DrX4tLy6206t",
     author: "Markiplier",
     views: "19M views",
     time: "8:22",
@@ -112,6 +122,7 @@ const videos = [
   {
     id: 11,
     title: "New Troop & Defense Levels - Update Sneak Peek!",
+    videoLink: "https://youtu.be/3nnL5Bk1z14?si=bo7nTDW_2lDySxwz",
     author: "Judo Sloth Gaming",
     views: "338K views",
     time: "21:20",
@@ -122,18 +133,20 @@ const videos = [
   },
   {
     id: 12,
-    title: "How to Make a YouTube Video",
-    author: "Video Influencers",
-    views: "1.2M views",
-    time: "10:45",
+    title: "The Simplest Math Problem No One Can Solve - Collatz Conjecture",
+    videoLink: "https://youtu.be/094y1Z2wpJg?si=MeEsdBZISvb5hd8F",
+    author: "Veritasium",
+    views: "45M views",
+    time: "22:09",
     thumbnail: "assets/thumbnails/thumbnail-4.webp",
     channelImg: "assets/images/channel-1.jpeg",
-    date: "2 years ago",
-    description: "Step-by-step guide on how to create and upload a YouTube video."
+    date: "4 years ago",
+    description: "The Collatz Conjecture is a simple yet unsolved problem in mathematics."
   },
   {
     id: 13,
     title: "Talking Tech and AI with Google CEO Sundar Pichai!",
+    videoLink: "https://www.youtube.com/watch?v=n2RNcPRtAiY&themeRefresh=1",
     author: "Marques Brownlee",
     views: "3.4M views",
     time: "14:20",
@@ -145,6 +158,7 @@ const videos = [
   {
     id: 14,
     title: "Try Not To Laugh Challenge #9",
+    videoLink: "https://youtu.be/mP0RAo9SKZk?si=83j-DrX4tLy6206t",
     author: "Markiplier",
     views: "19M views",
     time: "8:22",
@@ -156,6 +170,7 @@ const videos = [
   {
     id: 15,
     title: "New Troop & Defense Levels - Update Sneak Peek!",
+    videoLink: "https://youtu.be/3nnL5Bk1z14?si=bo7nTDW_2lDySxwz",
     author: "Judo Sloth Gaming",
     views: "338K views",
     time: "21:20",
@@ -166,18 +181,20 @@ const videos = [
   },
   {
     id: 16,
-    title: "How to Make a YouTube Video",
-    author: "Video Influencers",
-    views: "1.2M views",
-    time: "10:45",
+    title: "The Simplest Math Problem No One Can Solve - Collatz Conjecture",
+    videoLink: "https://youtu.be/094y1Z2wpJg?si=MeEsdBZISvb5hd8F",
+    author: "Veritasium",
+    views: "45M views",
+    time: "22:09",
     thumbnail: "assets/thumbnails/thumbnail-4.webp",
     channelImg: "assets/images/channel-1.jpeg",
-    date: "2 years ago",
-    description: "Step-by-step guide on how to create and upload a YouTube video."
+    date: "4 years ago",
+    description: "The Collatz Conjecture is a simple yet unsolved problem in mathematics."
   },
   {
     id: 17,
     title: "Talking Tech and AI with Google CEO Sundar Pichai!",
+    videoLink: "https://www.youtube.com/watch?v=n2RNcPRtAiY&themeRefresh=1",
     author: "Marques Brownlee",
     views: "3.4M views",
     time: "14:20",
@@ -189,6 +206,7 @@ const videos = [
   {
     id: 18,
     title: "Try Not To Laugh Challenge #9",
+    videoLink: "https://youtu.be/mP0RAo9SKZk?si=83j-DrX4tLy6206t",
     author: "Markiplier",
     views: "19M views",
     time: "8:22",
@@ -200,6 +218,7 @@ const videos = [
   {
     id: 19,
     title: "New Troop & Defense Levels - Update Sneak Peek!",
+    videoLink: "https://youtu.be/3nnL5Bk1z14?si=bo7nTDW_2lDySxwz",
     author: "Judo Sloth Gaming",
     views: "338K views",
     time: "21:20",
@@ -210,18 +229,20 @@ const videos = [
   },
   {
     id: 20,
-    title: "How to Make a YouTube Video",
-    author: "Video Influencers",
-    views: "1.2M views",
-    time: "10:45",
+    title: "The Simplest Math Problem No One Can Solve - Collatz Conjecture",
+    videoLink: "https://youtu.be/094y1Z2wpJg?si=MeEsdBZISvb5hd8F",
+    author: "Veritasium",
+    views: "45M views",
+    time: "22:09",
     thumbnail: "assets/thumbnails/thumbnail-4.webp",
     channelImg: "assets/images/channel-1.jpeg",
-    date: "2 years ago",
-    description: "Step-by-step guide on how to create and upload a YouTube video."
+    date: "4 years ago",
+    description: "The Collatz Conjecture is a simple yet unsolved problem in mathematics."
   },
   {
     id: 21,
     title: "Talking Tech and AI with Google CEO Sundar Pichai!",
+    videoLink: "https://www.youtube.com/watch?v=n2RNcPRtAiY&themeRefresh=1",
     author: "Marques Brownlee",
     views: "3.4M views",
     time: "14:20",
@@ -233,6 +254,7 @@ const videos = [
   {
     id: 22,
     title: "Try Not To Laugh Challenge #9",
+    videoLink: "https://youtu.be/mP0RAo9SKZk?si=83j-DrX4tLy6206t",
     author: "Markiplier",
     views: "19M views",
     time: "8:22",
@@ -244,6 +266,7 @@ const videos = [
   {
     id: 23,
     title: "New Troop & Defense Levels - Update Sneak Peek!",
+    videoLink: "https://youtu.be/3nnL5Bk1z14?si=bo7nTDW_2lDySxwz",
     author: "Judo Sloth Gaming",
     views: "338K views",
     time: "21:20",
@@ -254,13 +277,18 @@ const videos = [
   },
   {
     id: 24,
-    title: "How to Make a YouTube Video",
-    author: "Video Influencers",
-    views: "1.2M views",
-    time: "10:45",
+    title: "The Simplest Math Problem No One Can Solve - Collatz Conjecture",
+    videoLink: "https://youtu.be/094y1Z2wpJg?si=MeEsdBZISvb5hd8F",
+    author: "Veritasium",
+    views: "45M views",
+    time: "22:09",
     thumbnail: "assets/thumbnails/thumbnail-4.webp",
     channelImg: "assets/images/channel-1.jpeg",
-    date: "2 years ago",
-    description: "Step-by-step guide on how to create and upload a YouTube video."
+    date: "4 years ago",
+    description: "The Collatz Conjecture is a simple yet unsolved problem in mathematics."
   }
 ];
+
+function openYouTubeVideo(link) {
+  window.open(link, '_blank');
+}

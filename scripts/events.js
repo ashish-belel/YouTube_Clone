@@ -13,23 +13,23 @@ function initSearch(videos) {
   });
 }
 
-function initVideoClick(videos) {
-  const container = document.getElementById("video-container");
+// function initVideoClick(videos) {
+//   const container = document.getElementById("video-container");
 
-  container.addEventListener("click", (e) => {
-    const card = e.target.closest(".v-preview");
+//   container.addEventListener("click", (e) => {
+//     const card = e.target.closest(".v-preview");
 
-    if (!card) return;
+//     if (!card) return;
 
-    const videoId = card.dataset.id;
+//     const videoId = card.dataset.id;
 
-    const selectedVideo = videos.find(v => v.id == videoId);
+//     const selectedVideo = videos.find(v => v.id == videoId);
 
-    localStorage.setItem("selectedVideo", JSON.stringify(selectedVideo));
+//     localStorage.setItem("selectedVideo", JSON.stringify(selectedVideo));
 
-    window.location.href = "watch.html";
-  });
-}
+//     window.location.href = "watch.html";
+//   });
+// }
 
 const menuBtn = document.getElementById("menu-btn");
 const sidebar = document.querySelector(".sidebar");

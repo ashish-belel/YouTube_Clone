@@ -9,7 +9,7 @@ function renderVideos(videoList) {
 
   videoList.forEach(video => {
     const videoHTML = `
-      <div class="v-preview" data-id="${video.id}">
+      <div class="v-preview" data-id="${video.id}" onclick="openYouTubeVideo('${video.videoLink}')">
         <div class="thumb-row">
           <img class="thumb" src="${video.thumbnail}">
           <div class="v-time">${video.time}</div>
